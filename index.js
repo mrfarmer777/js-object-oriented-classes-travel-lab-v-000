@@ -5,7 +5,7 @@ class Driver{
   }
   
   startDate(){
-    date=new Date(joinDateStr);
+    const date=new Date(joinDateStr);
     return date;
   }
   
