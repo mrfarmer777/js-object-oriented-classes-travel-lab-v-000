@@ -20,12 +20,11 @@ class Route{
     this.begX=eastWest.indexOf(beginningLocation.horizontal);
     this.begY=beginningLocation.vertical;
     this.endX=eastWest.indexOf(endingLocation.horizontal);
-    this.endy=endingLocation.vertical;
-    console.log(this.endY-this.begY);
+    this.endY=endingLocation.vertical;
   }
   
   blocksTravelled(){
-    return (this.endX-this.begX);
+    return (this.endX-this.begX)+(this.endY-this.begY);
   }
   
   
