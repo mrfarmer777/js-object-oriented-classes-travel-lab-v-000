@@ -16,7 +16,7 @@ let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'P
 
 class Route{
   constructor(beginningLocation, endingLocation){
-    this.begX=beginningLocation.horizontal;
+    this.begX=eastWest.index(beginningLocation.horizontal);
     this.begY=beginningLocation.vertical;
     this.endX=endingLocation.horizontal;
     this.endy=endingLocation.vertical;
