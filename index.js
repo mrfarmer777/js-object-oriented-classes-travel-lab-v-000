@@ -5,7 +5,6 @@ class Driver{
   }
   
   startDate(){
-    
     date=new Date(joinDateStr);
     return date;
   }
