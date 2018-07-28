@@ -14,11 +14,13 @@ class Driver{
 
 class Route{
   constructor(beginningLocation, endingLocation){
-    begX=beginningLocation.horizontal;
-    begY=beginningLocation.vertical;
-    endX=endingLocation.horizontal;
-    endy=endingLocation.vertical;
+    this.begX=beginningLocation.horizontal;
+    this.begY=beginningLocation.vertical;
+    this.endX=endingLocation.horizontal;
+    this.endy=endingLocation.vertical;
   }
+  
+  
   
   
 }
