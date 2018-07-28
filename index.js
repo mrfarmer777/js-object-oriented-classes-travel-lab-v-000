@@ -18,7 +18,7 @@ class Route{
   constructor(beginningLocation, endingLocation){
     this.begX=eastWest.indexOf(beginningLocation.horizontal);
     this.begY=beginningLocation.vertical;
-    this.endX=endingLocation.horizontal;
+    this.endX=eastWest.indexOf(endingLocation.horizontal);
     this.endy=endingLocation.vertical;
   }
   
