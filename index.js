@@ -25,7 +25,7 @@ class Route{
   }
   
   blocksTravelled(){
-    return (this.endX-this.begX)+(this.endY-this.begY);
+    return (this.endX-this.begX);
   }
   
   
