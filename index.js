@@ -20,7 +20,9 @@ class Route{
     this.endy=endingLocation.vertical;
   }
   
-  
+  blocksTravelled(){
+    return (this.endX-this.begX)+(this.endY-this.begY);
+  }
   
   
 }
