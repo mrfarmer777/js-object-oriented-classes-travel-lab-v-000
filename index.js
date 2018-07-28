@@ -18,10 +18,10 @@ class Route{
   constructor(beginningLocation, endingLocation){
     
     this.begX=eastWest.indexOf(beginningLocation.horizontal);
-    console.log(this.begX);
     this.begY=beginningLocation.vertical;
     this.endX=eastWest.indexOf(endingLocation.horizontal);
     this.endy=endingLocation.vertical;
+    console.log(this.endY-this.begY);
   }
   
   blocksTravelled(){
