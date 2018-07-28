@@ -5,7 +5,9 @@ class Driver{
   }
   
   startDate(){
-    return new Date(joinDateStr);
+    
+    date=new Date(joinDateStr);
+    return date;
   }
   
   yearsExperienceFromBeginningOf(year){
