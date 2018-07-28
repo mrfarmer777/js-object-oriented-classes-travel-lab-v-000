@@ -12,6 +12,8 @@ class Driver{
   
 }
 
+let eastWest
+
 class Route{
   constructor(beginningLocation, endingLocation){
     this.begX=beginningLocation.horizontal;
